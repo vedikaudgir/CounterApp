@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url("/images_in_counterApp/backgroundimage.jpg");
+    background-size: cover;
+    color: #121212;
+    margin-top: 150px;
+    text-shadow: 0 0 1px #121212;
+}
+
+.buttons{
+    width: 200px;
+    height:30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #121212;
+    color: #121212;
+    background-color: #fcd30d;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box{
+    margin: 0 auto 40px auto;
+    width: 300px;
+    background-color: #d6dac8;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #121212, 0 0 20px #121212, 0 0 50px #121212;
+}
+
+#saveEntries{
+    font-weight: bold;
+}
