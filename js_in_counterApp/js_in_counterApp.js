@@ -15,7 +15,7 @@ function decrease (){
 }
 
 function save (){
-    let previousEntries = count + " - "
-    saveEl.innerText += previousEntries
+    let previousEntries = count + ", "
+    saveEl.textContent += previousEntries
     console.log(previousEntries)
 }
